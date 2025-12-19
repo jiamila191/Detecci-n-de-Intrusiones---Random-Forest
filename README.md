@@ -1,4 +1,4 @@
-#Detección de Intrusiones en Redes con Machine Learning
+# Detección de Intrusiones en Redes con Machine Learning
 
 ## Descripción del proyecto
 
@@ -10,49 +10,49 @@ El proyecto fue desarrollado como trabajo final en el marco de la formación com
 
 ## Objetivos
 
-Analizar y comprender el tráfico de red y sus características.
+🔹 Analizar y comprender el tráfico de red y sus características.
 
-Detectar patrones de comportamiento malicioso mediante Machine Learning.
+🔹 Detectar patrones de comportamiento malicioso mediante Machine Learning.
 
-Desarrollar y evaluar un modelo de Random Forest para detección de intrusiones.
+🔹 Desarrollar y evaluar un modelo de Random Forest para detección de intrusiones.
 
-Comparar el rendimiento con otro modelo (XGBoost).
+🔹 Comparar el rendimiento con otro modelo (XGBoost).
 
-Evaluar métricas clave priorizando la seguridad (recall en ataques).
+🔹 Evaluar métricas clave priorizando la seguridad (recall en ataques).
 
 ## Dataset
 
-Nombre: UNSW-NB15
+🔹Nombre: UNSW-NB15
 
-Origen: Australian Centre for Cyber Security (UNSW)
+🔹 Origen: Australian Centre for Cyber Security (UNSW)
 
-Características:
+🔹 Características:
 
-49 atributos de tráfico de red
+    49 atributos de tráfico de red
 
-Variables numéricas y categóricas
+    Variables numéricas y categóricas
 
-Múltiples tipos de ataques (DoS, Exploits, Reconnaissance, Worms, entre otros)
+    Múltiples tipos de ataques (DoS, Exploits, Reconnaissance, Worms, entre otros)
 
-El dataset combina tráfico realista normal y malicioso, representando escenarios actuales de ciberseguridad.
-
+    El dataset combina tráfico realista normal y malicioso, representando escenarios actuales de ciberseguridad.
+  
 ## Metodología
 
-Carga y exploración del dataset
+🔹Carga y exploración del dataset
 
-Análisis exploratorio de datos (EDA)
+🔹Análisis exploratorio de datos (EDA)
 
-Tratamiento de outliers y valores inconsistentes
+🔹Tratamiento de outliers y valores inconsistentes
 
-Eliminación de variables altamente correlacionadas
+🔹Eliminación de variables altamente correlacionadas
 
-Preprocesamiento con ColumnTransformer
+🔹Preprocesamiento con ColumnTransformer
 
-Entrenamiento de modelos con Pipeline
+🔹Entrenamiento de modelos con Pipeline
 
-Validación cruzada estratificada
+🔹Validación cruzada estratificada
 
-Evaluación y comparación de modelos
+🔹Evaluación y comparación de modelos
 
 ## Modelos implementados
 🔹 Random Forest
